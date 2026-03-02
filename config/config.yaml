@@ -41,7 +41,7 @@ app:
 # ===============================================================
 schedule:
   enabled: true                         # 是否启用调度系统
-  preset: "morning_evening"             # 预设模板名称（见上方说明）
+  preset: "office_hours"             # 预设模板名称（见上方说明）
 
 
 # ===============================================================
@@ -124,6 +124,86 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "autocar.co"
+      name: "autocar.co"
+      url: "https://www.autocar.co.uk/rss"
+
+    - id: "polygon"
+      name: "polygon"
+      url: "https://www.polygon.com/feed/"
+
+    - id: "steam"
+      name: "steam"
+      url: "https://store.steampowered.com/feeds/news.xml"
+
+    - id: "ign"
+      name: "ign"
+      url: "https://www.ign.com/rss/articles/feed"
+
+    - id: "etsy"
+      name: "etsy"
+      url: "https://www.etsy.com/codeascraft/rss"
+
+    - id: "codinghorror"
+      name: "codinghorror"
+      url: "https://blog.codinghorror.com/rss/"
+
+    - id: "feedburner"
+      name: "feedburner"
+      url: "https://feeds.feedburner.com/GDBcode"
+
+    - id: "infoq"
+      name: "infoq"
+      url: "https://feed.infoq.com/"
+
+    - id: "scripting"
+      name: "scripting"
+      url: "http://scripting.com/rss.xml"
+
+    - id: "feedburner"
+      name: "feedburner"
+      url: "https://feeds.feedburner.com/se-radio"
+
+    - id: "stackoverflow"
+      name: "stackoverflow"
+      url: "https://stackoverflow.blog/feed/"
+
+    - id: "github"
+      name: "github"
+      url: "https://github.blog/feed/"
+
+    - id: "sciam"
+      name: "sciam"
+      url: "http://rss.sciam.com/sciam/60secsciencepodcast"
+
+    - id: "nature"
+      name: "nature"
+      url: "https://www.nature.com/nature.rss"
+
+    - id: "mozilla"
+      name: "mozilla"
+      url: "https://hacks.mozilla.org/feed/"
+
+    - id: "css"
+      name: "css"
+      url: "https://css-tricks.com/feed/"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
