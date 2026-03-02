@@ -353,7 +353,7 @@ ai:
   
   model: "minimax/MiniMax-M2.5"
 
-  api_key: "sk-cp-MlDATm7AZlRyPm8mtm7X0Izt4lnjjE0DlkzpRXZ_1YhPjpWkasfobQ6V272cO4VRyg8HWXyei8k9ogH_WmEeo6gIBvmVQGEN61ZsExjyZB8YoSyccHX_9Pc"                       # API Key（建议使用环境变量 AI_API_KEY）
+  api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
   api_base: "https://api.minimaxi.com/v1"                      # 自定义 API 端点（可选，大多数情况留空）
                                     # 示例: https://api.openai.com/v1（自建代理或兼容接口）
@@ -501,8 +501,8 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
+    rank: 0.4                         # 排名权重
+    frequency: 0.5                    # 频次权重
     hotness: 0.1                      # 热度权重
 
   # 多账号限制
