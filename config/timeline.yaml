@@ -254,6 +254,9 @@ presets:
         # analyze 继承 default: false → 午间不做 AI 分析，节省 API
         # once 继承 default（push: true）→ 只推一次
 
+        analyze: true
+        filter_method: ai
+        
       closing_summary:
         name: "收工汇总"
         start: "17:00"
